@@ -38,6 +38,7 @@ print(students)
 
 students = []
 file_obj = open(FILE_NAME_JSON, "r")
+# For some reason, pycharm gives me a weird yellow line here
 students = json.load(file_obj)
 file_obj.close()
 print(students)
